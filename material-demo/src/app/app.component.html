@@ -39,3 +39,17 @@
   <span matSuffix>@domain.com</span>
   <mat-error *ngIf="username.invalid && username.errors?.['required']">The username is required</mat-error>
 </mat-form-field>
+
+<br><br>
+<hr>
+
+<!-- Rxjs subject and behaviour subject -->
+<mat-card>
+  <mat-card-title>Rxjs: subject and behaviour subject</mat-card-title>
+  <mat-card-subtitle>Start</mat-card-subtitle>
+  <strong *ngIf="exclusive">Exclusive</strong>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

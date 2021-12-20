@@ -9,6 +9,8 @@ export class AppComponent {
   title = 'material-demo';
   isChecked = true;
 
+  exclusive:boolean = true;
+
   onChange($event:any){
     console.log($event);
   }
